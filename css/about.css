@@ -1,0 +1,166 @@
+/* About */
+#about {
+    padding: 3% 0 0 0;
+}
+#about #bgtext {
+    top: 100%;
+}
+.feature img {
+    width: 100%;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+/* .col-sm-6 {
+    width: 100%;
+} */
+.feature-box {
+    padding: 20px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+}
+.txt {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1px;
+    transform: scale(1.1, 1);
+    letter-spacing: 5px;
+    /* left: 145px; */
+}
+#aboutText {
+    /* position: relative; */
+    width: 175%;
+    /* left: 40px; */
+    line-height: 1.9;
+    padding: 0 0 0 45px;
+}
+#aboutText span {
+    color: #E75555;
+    font-size: 22px;
+    -webkit-text-stroke-width: 2px;
+}
+#aboutTxt {
+    /* position: relative; */
+    /* left: 40px; */
+    line-height: 1.9;
+    width: 117%;
+    padding: 0 0 0 30px;
+}
+#aboutTxt span {
+    color: #E75555;
+    font-size: 22px;
+    -webkit-text-stroke-width: 2px;
+}
+#scroller {
+    position: relative;
+    left: 210px;
+    color: #A8A8A8;
+    font-weight: bold;
+    letter-spacing: 6px;
+    top: 35px;
+}
+#scroller::before {
+    content: '';
+    position: absolute;
+    width: 1.1px;
+    height: 175px;
+    background-color: #A8A8A8;
+    top: 45px;
+    left: 39px;
+}
+/* #aboutContent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+} */
+#aboutImg {
+    /* background: url(/IMG/Jayden-May.jpg); */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/Jayden-May.jpg);
+    /* background-size: cover; */
+    width: 278px;
+    height: 250px;
+}
+.aboutImg {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px !important;
+}
+.aboutRow {
+    margin-top: 25%;
+}
+/* EDUCATION */
+#educationHeading {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 50px;
+    color: #E75555;
+    /* margin: 50px 0px; */
+}
+#educationContentContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.year {
+    margin-top: 5%;
+    /* margin-right: 12%; */
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+.subtitle {
+    margin-top: 1%;
+    /* margin-left: 7%; */
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+    color: #E75555;
+}
+.educationInfo {
+    margin-top: 2%;
+    /* width: 60%; */
+    /* margin-left: 7%; */
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    padding-left: 18%;
+}
+.timelineInfo {
+    width: 100%;
+    padding-right: 60px;
+}
+/* EXPERIENCE */
+#experienceHeading {
+    font-size: 50px;
+    color: #E75555;
+    margin: 50px 0px;
+}
+.experienceYear {
+    margin-top: 5%;
+    font-size: 18px;
+}
+.experienceSubtitle {
+    margin-top: 1%;
+    font-size: 35px;
+    color: #E75555;
+}
+.experienceInfo {
+    margin-top: 2%;
+    font-size: 20px;
+    /* width: 60%; */
+    text-align: left;
+    padding-right: 25%;
+}
+.experience {
+    padding: 0 0 0 70px;
+    width: 100%;
+}
