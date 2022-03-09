@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
 var object1 = $('#img2');
 var object2 = $('#img4');
 
-var layer = $('#homeFullScreen');
+var layer = $('#home');
 
 layer.mousemove(function(e) {
     var valueX = (e.pageX * -1 / 20);
